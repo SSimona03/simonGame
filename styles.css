@@ -63,6 +63,7 @@ body {
   padding: 10px 36px 11px 36px;
   text-decoration: none;
   margin: 100px 10px;
+  color: #FEF2BF;
 }
 
 #start:hover {
@@ -78,6 +79,13 @@ body {
   height: 200px;
   margin: auto;
   padding: 10px;
+
+  }
+
+  #start{
+    padding: 40px 80px 40px 80px;
+    font-size: 40px;
+    font-weight: 600;
 
   }
 
