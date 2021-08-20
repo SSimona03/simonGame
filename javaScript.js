@@ -34,14 +34,15 @@ $(".btn").click(onButtonClick);
 
 //// start the key - waiting for keypress
 
-   $(document).keypress(function(event){
-       play();
-    //    if (levelNr == 0){
-    //        count = 0;
-           
-    //    }
+//    $(document).keypress(function(event){
+//        play();
     
-    })
+//     })
+
+$("#start").click( function (){  
+    play();
+});
+    
 
  //*** variables
 let levelNr = 0;
